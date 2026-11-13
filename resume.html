@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #142d4e, #2874a6);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        nav {
+            background-color: #10243b;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 25px auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #1c527c;
+            border-bottom: 2px solid #2874a6;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2874a6;
+            color: white;
+        }
+
+        a {
+            color: #1769aa;
+        }
+
+        footer {
+            background-color: #10243b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive Design */
+
+        @media screen and (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px;
+                font-size: 14px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+
+            .section {
+                padding: 18px;
+            }
+
+            table {
+                font-size: 13px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Gautam Kumar</h1>
+        <p>College Student | Mathematics | Aspiring Civil Servant</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Me -->
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Gautam Kumar. I am a college student
+                pursuing Mathematics. I am passionate about learning
+                new technologies, improving my knowledge and developing
+                problem-solving skills. My goal is to become a civil
+                servant and contribute to society through public service.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section class="section" id="education">
+            <h2>Educational Qualifications</h2>
+
+            <table>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Details</th>
+                </tr>
+
+                <tr>
+                    <td>Graduation</td>
+                    <td>Sri Venkateswara College, Delhi University</td>
+                    <td>B.Sc. Mathematics</td>
+                </tr>
+
+                <tr>
+                    <td>Senior Secondary</td>
+                    <td>Your School Name</td>
+                    <td>Class 12</td>
+                </tr>
+
+                <tr>
+                    <td>Secondary</td>
+                    <td>Your School Name</td>
+                    <td>Class 10</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="section" id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Basic Python Programming</li>
+                <li>Microsoft Excel</li>
+                <li>Basic Computer Knowledge</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+
+            <h3>1. Personal Resume Website</h3>
+            <p>
+                Developed a personal resume website using HTML and CSS
+                to display my academic qualifications, skills and
+                achievements.
+            </p>
+
+            <h3>2. Basic HTML Webpage</h3>
+            <p>
+                Created a simple webpage using HTML elements,
+                hyperlinks, tables and lists.
+            </p>
+        </section>
+
+        <!-- Achievements -->
+        <section class="section" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Participated in academic and college activities.</li>
+                <li>Continuously improving technical and communication skills.</li>
+                <li>Actively learning about competitive examinations.</li>
+            </ul>
+        </section>
+
+        <!-- Hobbies -->
+        <section class="section" id="hobbies">
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li>Playing Cricket</li>
+                <li>Listening to Music</li>
+                <li>Reading Books and Newspapers</li>
+                <li>Learning New Technologies</li>
+                <li>Exploring Current Affairs</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <h2>Contact Information</h2>
+
+            <p><b>Email:</b>
+                <a href="mailto:yourmail@gmail.com">
+                    yourmail@gmail.com
+                </a>
+            </p>
+
+            <p><b>GitHub:</b>
+                <a href="https://github.com/yourusername" target="_blank">
+                    My GitHub Profile
+                </a>
+            </p>
+
+            <p><b>LinkedIn:</b>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    My LinkedIn Profile
+                </a>
+            </p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Gautam Kumar | Personal Resume Website</p>
+    </footer>
+
+</body>
+</html>
